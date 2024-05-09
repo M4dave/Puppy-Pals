@@ -7,7 +7,7 @@
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #333;
   margin-bottom: 1rem;
   
@@ -19,28 +19,25 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  animation: spin infinite 15s linear;
+  animation: spin 10s linear infinite;
   
 }
 
 ul li {
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  padding: 1em;
   background-color: #646cff;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.25s;
+  border-radius: 0.5em;
+  transition: background-color 300ms;
   
 }
 
 ul li:hover {
-  background-color: #535bf2;
+  background-color: #61dafb;
 }
 p {
   font-size: 1.25rem;
   color: #333;
   margin-bottom: 1rem;
-  
 }
 /* .logo {
   height: 6em;
