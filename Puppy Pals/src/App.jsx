@@ -10,9 +10,7 @@ function App() {
   console.log("featurePup: ", featurePup);
   console.log("puppyList: ", puppyList);
 
-  function handlePuppyClick() {
-    
-  }
+  function handlePuppyClick() {}
 
   return (
     <div className="App">
